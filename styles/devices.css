@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+
+/*Typical Device Breackpoints
+
+Pequenas Telas: max 600px
+Celular: min 600px, max 767px
+Tablet: min 768, max1023
+Desktop: min 1024
+Grandes Telas: min 1200px
+
+*/
+
+
+
+@media screen and (min-width:900px) {
+    body {
+        background: url(https://wallpaperaccess.com/full/119615.jpg); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    #menu{
+        display: none;
+    }
+    #navbar {
+        display: flex;
+        margin-bottom: 40px;
+    }
+    
+    #title {
+        
+        max-width: 800px;
+        margin: auto;
+    }
+    #topo {
+        background: #04c4d98e;
+    }
+
+    
+}
+
+@media screen and (min-width:1400px) {
+    table {
+        width: 50vw;
+    }
+
+    
+}
+
+
+@media screen and (min-width:1800px) {
+    body {
+        background: url(../pictures/praia.jpg); 
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    section {
+        display: flexbox;
+        margin: auto;
+        
+    }
+    
+
+    
+}

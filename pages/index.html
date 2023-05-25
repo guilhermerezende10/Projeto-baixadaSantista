@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/devices.css">
+    <title>Cidades</title>
+</head>
+<body onresize="mudouTamanho()" onload="telaGrande()">
+    
+    <div id="topo">
+        <div>
+            <h1>Menu</h1>
+            <span class="material-icons" id="menu" onclick="clickMenu()">menu</div>
+        <nav id="navbar">
+            <a href="index.html">Início</a>
+            <a href="bertioga.html">Bertioga</a>
+            <a href="cubatao.html">Cubatão</a>
+            <a href="guaruja.html">Guarujá</a>
+            <a href="itanhaem.html">Itanhaém</a>
+            <a href="mongagua.html">Mongaguá</a>
+            <a href="peruibe.html">Peruíbe</a>
+            <a href="praia-grande.html">PG</a>
+            <a href="santos.html">Santos</a>
+            <a href="sao-vicente.html">SV</a>
+        </nav>
+    </div>
+    <main>
+        <section>
+            <h1>A Baixada Santista</h1>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/SaoPaulo_RM_BaixadaSantista.svg/1200px-SaoPaulo_RM_BaixadaSantista.svg.png" alt="" class="fotos">
+            
+            <p>A Região Metropolitana da Baixada Santista foi criada mediante Lei Complementar Estadual 815, em 30 de julho de 1996, tornando-se a primeira região metropolitana brasileira sem status de capital estadual. </p>
+
+                <p>Estende-se sobre municípios pertencentes tanto à Mesorregião de Santos (sobreposta à Microrregião de Santos) quanto à Mesorregião do Litoral Sul Paulista (mais precisamente, à Microrregião de Itanhaém).  Todos os municípios da Região Metropolitana integram o litoral de São Paulo. </p>
+                
+                <p>A região abrange 2 419,930 quilômetros quadrados (corresponde a menos de 1% da superfície do estado de São Paulo). É a 17ª região metropolitana mais populosa do Brasil, com uma população de cerca de 1,8 milhão de moradores fixos, e faz parte do Complexo Metropolitano Expandido, uma megalópole que compreende 12% da população brasileira, ou cerca de 30 milhões de habitantes.Nos períodos de férias, acolhe igual número de pessoas, que se instalam na quase totalidade em seus municípios.</p>
+                 <a href="https://pt.wikipedia.org/wiki/Regi%C3%A3o_Metropolitana_da_Baixada_Santista" target="_blank" rel="external" id="fonte">Fonte</a>
+        </section>
+        <section id="tabela">
+            <table>
+                <h1>Dados da baixada</h1>
+                <img src="https://www.portalbaixadasantista.com.br/imagens/mapa-baixada-santista.jpg" alt="" class="fotos">
+                <tr>
+                    <th>Município</th>
+                    <th>Área</th>
+                    <th>População em 2023</th>
+                    <th>Pib em 2013</th>
+                    <th>IDH médio</th>
+                    
+                </tr>
+        
+                <tr>
+                    <td class="cidade">Bertioga</td>
+                    <td>490.150</td>
+                    <td>64.018</td>
+                    <td>1.44 bilhões</td>
+                    <td id="pior">0,730</td>
+                </tr>
+                <tr>
+                    <td class="cidade">Cubatão</td>
+                    <td>142.880</td>
+                    <td>128.645</td>
+                    <td>5.75 bilhões</td>
+                    <td>0,737</td>
+                </tr>
+                <tr>
+                    <td class="cidade">Guarujá</td>
+                    <td>143.450</td>
+                    <td>311.116</td>
+                    <td>5.92 bilhões</td>
+                    <td>0,751</td>
+                </tr>
+                <tr>
+                    <td class="cidade">Itanhaém</td>
+                    <td id="destaque">601.670</td>
+                    <td>107.927</td>
+                    <td>1.24 bilhões</td>
+                    <td>0,745</td>
+                </tr>
+                <tr>
+                    <td class="cidade">Mongaguá</td>
+                    <td id="pior">142.010</td>
+                    <td id="pior">61.062</td>
+                    <td id="pior">0.65 bilhões</td>
+                    <td>0,754</td>
+                </tr>
+                <tr>
+                    <td class="cidade">Peruíbe</td>
+                    <td>324.140</td>
+                    <td>69.321</td>
+                    <td>1.18 bilhões</td>
+                    <td>0,749</td>
+                </tr>
+                <tr>
+                    <td class="cidade">Praia Grande</td>
+                    <td>147.070</td>
+                    <td>344.834</td>
+                    <td>4.63 bilhões</td>
+                    <td>0,754</td>
+                </tr>
+                <tr>
+                    <td class="cidade">Santos</td>
+                    <td>280.670</td>
+                    <td id="destaque">411.029</td>
+                    <td id="destaque">37.72 bilhões</td>
+                    <td id="destaque">0,840</td>
+                </tr>
+                <tr>
+                    <td class="cidade">São Vicente</td>
+                    <td>147,890</td>
+                    <td>334.632</td>
+                    <td>4.08 bilhões</td>
+                    <td>0,768</td>
+                </tr>
+                <tr>
+                    <td class="cidade">Total</td>
+                    <td>2.419.930</td>
+                    <td>1.832.584</td>
+                    <td>52.36 bilhões</td>
+                    <td>0,758</td>
+                </tr>
+            </table>
+            <a href="https://pt.wikipedia.org/wiki/Regi%C3%A3o_Metropolitana_da_Baixada_Santista" id="fonte" target="_blank" rel="external">Fonte</a>
+        </section>
+    </main>
+    <footer>
+        <a href="https://github.com/guilhermerezende10" target="_blank" class="linkGitHub" > 
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github icon" id="github" style="text-align: left;">Guilherme R. | Programador
+        </a>
+     </footer>
+    <script src="../scripts/main.js"></script>
+</body>
+</html>
