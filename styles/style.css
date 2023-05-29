@@ -102,7 +102,7 @@ section {
     display: grid;
     place-items: center;
     text-align: left;
-    text-indent: 20px;
+    text-indent: 5px;
 
     
 
@@ -207,6 +207,7 @@ img {
     padding: 0px;
 }
 
+
 footer {
 
     color: white;
@@ -223,7 +224,8 @@ footer {
     margin: auto;
     margin-bottom: 20px;    
     font-size: 1.2em;
-     width: 400px;
+    width: 400px;
+    max-width: 80vw;
 
     
 }
@@ -253,6 +255,8 @@ footer:not(:hover) {
 
 iframe {
     margin: 20px;
+    max-width: 55vw;
+    max-height: 20vh;
 }
 
 ul, li {

@@ -37,6 +37,10 @@ Grandes Telas: min 1200px
         background: #04c4d98e;
     }
 
+    iframe {
+        max-height: 500px;
+    }
+
     
 }
 
