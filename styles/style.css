@@ -256,7 +256,7 @@ footer:not(:hover) {
 
 iframe {
     margin: 20px;
-    max-width: 55vw;
+    max-width: 50vw;
     max-height: 20vh;
 }
 
