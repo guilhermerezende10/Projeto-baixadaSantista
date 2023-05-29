@@ -98,7 +98,8 @@ section {
     backdrop-filter: blur (10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 8px;
-    max-width: 80vw;
+    margin: auto;
+    width: 75vw;
     display: grid;
     place-items: center;
     text-align: left;
@@ -177,12 +178,6 @@ td {
 #pior {
     color: rgb(255, 66, 66);
     font-weight: bolder;
-}
-
-section {
-    
-    width: 60vw;
-    margin: auto;
 }
 
 img {
